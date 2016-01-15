@@ -10,3 +10,9 @@ C:\Git\ConsoleApplication16\obj\Debug\ConsoleApplication16.pdb
 C:\Git\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe
 C:\Git\ConsoleApplication16\bin\Debug\ConsoleApplication16.pdb
 C:\Git\ConsoleApplication16\obj\Debug\ConsoleApplication16.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe.config
+C:\Git\Program.n\ConsoleApplication16\obj\Debug\ConsoleApplication16.exe
+C:\Git\Program.n\ConsoleApplication16\obj\Debug\ConsoleApplication16.pdb
+C:\Git\Program.n\ConsoleApplication16\obj\Debug\ConsoleApplication16.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe
+C:\Git\Program.n\ConsoleApplication16\bin\Debug\ConsoleApplication16.pdb

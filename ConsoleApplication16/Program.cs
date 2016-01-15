@@ -12,9 +12,9 @@ namespace ConsoleApplication16
         public int age;
         public string ID;
         public double gpa;
-        public void printFullName()
+        public void printFullInformation()
         {
-            Console.WriteLine(this.name + "" + this.surename);
+            Console.WriteLine(this.name + "" + this.surename+this.age+"" +this.ID+""+this.gpa);
         }
     }
 
@@ -34,9 +34,11 @@ namespace ConsoleApplication16
             b.surename = "Turysbekova";
             b.age = 20;
             b.gpa = 3.5;
-            a.printFullName();
-            b.printFullName();
+            b.ID = "15BD00000";
+            a.printFullInformation();
+            b.printFullInformation();
             Console.ReadKey();
+            Console.ReadLine();
         }
     }
 

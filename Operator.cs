@@ -24,6 +24,11 @@ namespace Example
             Complex c3=new Complex (c1.a+c2.a,c1.b+c2.b);
             return c3;
         }
+        public static Complex operator -(Complex c1, Complex c2)
+        {
+            Complex c3 = new Complex(c1.a - c2.a, c1.b - c2.b);
+            return c3;
+        }
         
         public override string ToString()
         {

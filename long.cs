@@ -27,10 +27,14 @@ namespace ConsoleApplication23
         }
         static void Main(string[] args)
         {
-            Kosu u = new Kosu(11111, 30303);
-            Kosu h = new Kosu(250247, 47859);
-            Kosu j = u + h;
-          
+          //  Kosu u = new Kosu(11111, 30303);
+           // Kosu h = new Kosu(250247, 47859);
+          ///  Kosu j = u + h;
+            Kosu u = new Kosu(long.Parse(Console.ReadLine()));
+            Kosu u = new Kosu(long.Parse(Console.ReadLine()));
+            Kosu h = new Kosu(long.Parse(Console.ReadLine()));
+            Kosu h = new Kosu(long.Parse(Console.ReadLine()));
+
             Console.WriteLine(j);
             Console.ReadKey();
         }

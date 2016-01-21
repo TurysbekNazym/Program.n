@@ -13,11 +13,12 @@ namespace work with files
     {
         static void Main(string[] args)
         {
-            FileStream file = new FileStream(@"D:\Документы\nazym\Nazym.docx", FileMode.Open);
-            StreamReader reader = new StreamReader(file);
-            Console.WriteLine(reader.ReadToEnd());
-            reader.Close();
-            Console.ReadLine();
+          //  FileStream file = new FileStream(@"D:\Документы\nazym\Nazym.docx", FileMode.Open);
+            //StreamReader reader = new StreamReader(file);
+            //Console.WriteLine(reader.ReadToEnd());
+            //reader.Close();
+            //Console.ReadLine();
+            File.Create(@"C:\Users\Администратор\Downloads\Nazym.docx");
             
 
 

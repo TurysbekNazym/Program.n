@@ -14,10 +14,10 @@ namespace Example
         public string a, b, c;
         public string day;
         
-        public bool Flag;
+        public bool Flag=true;
         public void JobFinder()
         {
-            Console.WriteLine(this.name + "" + this.age+""+this.status+""+this.a,b,c);
+            Console.WriteLine(this.name + " " + this.age+" "+this.status+" "+this.a,b,c);
         }
         
     }
@@ -37,18 +37,16 @@ namespace Example
                 Console.WriteLine("Who you are? :student ,worker  ,pensioner ");
                 P.status = Console.ReadLine();
 
-               P.Flag = (P.status==P.a);
-               if (P.Flag)
-               {
+               if (P.Flag){
                    Console.WriteLine(" waiter in cafe");
                }
 
              //  else
                //    Console.WriteLine("Baby sitter");
             }
-            if (P.age > 12 && P.age < 16)
+     ///       if (P.age > 12 && P.age < 16)
             {
-                Console.WriteLine("Sorry , you are child");
+                Console.WriteLine("Sorry , y");
             }
 
             Console.ReadKey();

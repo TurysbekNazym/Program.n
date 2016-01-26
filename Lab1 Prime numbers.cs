@@ -34,11 +34,11 @@ namespace Lab1_Prime_number
                     Console.WriteLine(b);
 
                 }
-                Console.ReadKey();
+                
 
             }
-           
 
+            Console.ReadKey();
             
             
         }

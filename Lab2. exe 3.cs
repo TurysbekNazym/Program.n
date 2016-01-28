@@ -12,8 +12,8 @@ namespace Lab2_lower_Prime
        
         static void Main(string[] args)
         {
-           FileStream FF=new FileStream (@"C:\Users\Администратор\Downloads\Naz\lab.txt",FileMode.OpenOrCreate,FileAccess.ReadWrite);
-           FileStream FF2=new FileStream (@"C:\Users\Администратор\Downloads\Naz\lab.txt",FileMode.OpenOrCreate,FileAccess.ReadWrite);
+            FileStream FF = new FileStream(@"C:\Users\Администратор\Desktop\Nazym\lab.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+           FileStream FF2=new FileStream (@"C:\Users\Администратор\Desktop\Nazym\lab.txt",FileMode.OpenOrCreate,FileAccess.ReadWrite);
            StreamReader aa= new StreamReader(FF);
            StreamWriter qq=new StreamWriter (FF2);
             int cnt = 0;

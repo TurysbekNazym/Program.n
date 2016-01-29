@@ -12,9 +12,10 @@ namespace Max_i_min
         static void Main(string[] args)
         {
             FileStream MAX = new FileStream(@"C:\Users\Администратор\Downloads\Naz\N.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            FileStream MAX1 = new FileStream(@"C:\Users\Администратор\Downloads\Naz\N.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            FileStream MAX1 = new FileStream(@"C:\Users\Администратор\Downloads\Naz\N1.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader lg = new StreamReader(MAX);
             StreamWriter kl = new StreamWriter(MAX1);
+
             string[] s = lg.ReadLine().Split();
             int max,min;
              max = int.Parse(s[0]);
@@ -38,13 +39,14 @@ namespace Max_i_min
 
 
             }
-          kl.WriteLine("Max="+max);
-          kl.WriteLine("Min="+min);
+          kl.WriteLine("Max={0}, min ={1}",max, min);
+          Console.WriteLine("Max={0}, min ={1}",max, min);         
+            lg.Close();
+          kl.Close();
             
             MAX.Close();
             MAX1.Close();
-            lg.Close();
-            kl.Close();
+           
             Console.ReadKey();
 
         }

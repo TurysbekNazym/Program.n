@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Xml.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Xml.Serialization;
 
-namespace snake_Lab.Model
+namespace GAME_GAME.Model
 {
-    public class Drawer
+   public  class Drawer
     {
         public ConsoleColor color;
         public char sign;
@@ -21,7 +21,7 @@ namespace snake_Lab.Model
             {
                 Console.SetCursorPosition(p.x, p.y);//
                 Console.Write(sign);
-             
+
             }
         }
         public void Save()
@@ -55,8 +55,8 @@ namespace snake_Lab.Model
 
 
         }
+
+
+
     }
-
-
-    }
-
+}

@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace snake_Lab.Model
+namespace GAME_GAME.Model
 {
-    public class Point 
+   public class Point
     {
-        public int x,y;
+        public int x, y;
         public Point(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
-
     }
 }

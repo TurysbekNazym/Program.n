@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace snake_Lab
+namespace GAME_GAME
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.SetWindowSize(40, 40);
             Model.Game game = new Model.Game();
-            Console.SetWindowSize(48, 48);
             Console.ReadKey();
-
         }
     }
 }

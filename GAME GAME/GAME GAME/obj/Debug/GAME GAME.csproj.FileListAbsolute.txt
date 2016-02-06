@@ -1,0 +1,6 @@
+C:\Git\Program.n\GAME GAME\GAME GAME\bin\Debug\GAME GAME.exe.config
+C:\Git\Program.n\GAME GAME\GAME GAME\bin\Debug\GAME GAME.exe
+C:\Git\Program.n\GAME GAME\GAME GAME\bin\Debug\GAME GAME.pdb
+C:\Git\Program.n\GAME GAME\GAME GAME\obj\Debug\GAME GAME.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\GAME GAME\GAME GAME\obj\Debug\GAME GAME.exe
+C:\Git\Program.n\GAME GAME\GAME GAME\obj\Debug\GAME GAME.pdb

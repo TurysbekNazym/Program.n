@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace snake_Lab.Model
+namespace GAME_GAME.Model
 {
-    class Wall:Drawer
+   public class Wall:Drawer
     {
         public Wall(int level)
         {
@@ -18,9 +18,9 @@ namespace snake_Lab.Model
         public void Init(int level)
         {
             body.Clear();
-            FileStream fs = new FileStream(string.Format(@"C:\Git\Clonning\level1.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            
-            
+            FileStream fs = new FileStream(string.Format(@"C:\Git\Clonning\lev 1.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);
+
+
             StreamReader sr = new StreamReader(fs);// 
             string[] token = sr.ReadToEnd().Split('\n');
             int row = -1;
@@ -32,10 +32,10 @@ namespace snake_Lab.Model
                 {
                     col++;
                     if (ch == '#')
-                        body.Add(new Point(col, row)); 
+                        body.Add(new Point(col, row));
                 }
             }
- 
+
         }
     }
 }

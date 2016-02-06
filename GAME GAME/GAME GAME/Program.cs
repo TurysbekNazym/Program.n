@@ -10,7 +10,7 @@ namespace GAME_GAME
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(40, 40);
+            Console.SetWindowSize(48, 48);
             Model.Game game = new Model.Game();
             Console.ReadKey();
         }

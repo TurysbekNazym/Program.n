@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+
 namespace GAME_GAME.Model
 {
    public class Wall:Drawer
@@ -13,15 +14,18 @@ namespace GAME_GAME.Model
         {
             color = ConsoleColor.Red;
             sign = '#';
-            Init(1);
+            Init(level);
         }
         public void Init(int level)
         {
             body.Clear();
-            FileStream fs = new FileStream(string.Format(@"C:\Git\Clonning\lev 1.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            FileStream fs = new FileStream(string.Format(@"C:\Git\Clonning\lev 1{0}.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);// 
+            // если съел то небходимое количество еды автоматический открывается следующий уровень
 
 
             StreamReader sr = new StreamReader(fs);// 
+            
+
             string[] token = sr.ReadToEnd().Split('\n');
             int row = -1;
             foreach (string s in token)

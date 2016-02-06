@@ -30,9 +30,16 @@ namespace Lab1_Complex_class
     {
         static void Main(string[] args)
         {
-            Complex n = new Complex(8, 8);// придаем значения параметрам 
-            Complex m = new Complex(5, 6);
-            Complex v = n + m;
+           // Complex n = new Complex(8, 8);// придаем значения параметрам 
+            //Complex m = new Complex(5, 6);
+            //Complex v = n + m;
+            Complex x1 = int.Parse(Console.ReadLine());
+            Complex y1 = int.Parse(Console.ReadLine());
+            Complex x2 = int.Parse(Console.ReadLine());
+            Complex y2= int.Parse(Console.ReadLine());
+            Comlex Q = new Comlex(x1, y1);
+            Complex W = new Complex(x2, y2);
+            Complex v = Q + W;
             Console.WriteLine(v);
             Console.ReadKey();
 

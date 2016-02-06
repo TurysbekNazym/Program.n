@@ -28,8 +28,16 @@ namespace Lab1_Student
     {
         static void Main(string[] args)
         {
-            Student a = new Student("Nazym", "Turysbek", 4.0);// создаем экземпляры от класс студент
+            Student a = new Student();
+            Student b = new Student();
+            b.name = Console.ReadLine();
+            b.surname =Console.ReadLine();
+            b.gpa = Convert.ToDouble(Console.ReadLine());
+            a.name = "Nazym";
+            a.surname = "Turysbek";
+            a.gpa = 4.0;       // создаем экземпляры от класс студент
             Console.WriteLine(a);
+            Console.WriteLine(b);
             Console.ReadKey();
 
  

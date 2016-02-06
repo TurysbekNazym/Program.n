@@ -16,7 +16,7 @@ namespace FileStackexample
         static void Stackii(string path)
         {
             Stack<string> dirs = new Stack<string>(20);// создаем стек
-            Console.WriteLine(path + ":" + Directory.GetFiles(path).Length);// количество файлов в начальной папке 
+            Console.WriteLine(path + "/" + Directory.GetFiles(path).Length);// количество файлов в начальной папке 
             dirs.Push(path);// добавляем путь начальной папки
 
             while (dirs.Count > 0)// выполняется цикл, пока стэк не станет пустым

@@ -1,0 +1,6 @@
+C:\Git\Program.n\Lab2_2\Lab2_2\bin\Debug\Lab2_2.exe.config
+C:\Git\Program.n\Lab2_2\Lab2_2\bin\Debug\Lab2_2.exe
+C:\Git\Program.n\Lab2_2\Lab2_2\bin\Debug\Lab2_2.pdb
+C:\Git\Program.n\Lab2_2\Lab2_2\obj\Debug\Lab2_2.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\Lab2_2\Lab2_2\obj\Debug\Lab2_2.exe
+C:\Git\Program.n\Lab2_2\Lab2_2\obj\Debug\Lab2_2.pdb

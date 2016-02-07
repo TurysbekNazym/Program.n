@@ -19,7 +19,7 @@ namespace GAME_GAME.Model
         public void Init(int level)
         {
             body.Clear();
-            FileStream fs = new FileStream(string.Format(@"C:\Git\Clonning\lev 1{0}.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);// 
+            FileStream fs = new FileStream(string.Format(@"C:\Git\Program.n\GAME GAME\level of the game\lev{0}.txt", level), FileMode.OpenOrCreate, FileAccess.ReadWrite);// 
             // если съел то небходимое количество еды автоматический открывается следующий уровень
 
 

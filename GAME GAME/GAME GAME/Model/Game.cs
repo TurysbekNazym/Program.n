@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
+using System.IO;
+using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 namespace GAME_GAME.Model
 {
@@ -14,7 +18,9 @@ namespace GAME_GAME.Model
         public static Food food = new Food();
         public static Snake snake = new Snake();
         public static Wall wall = new Wall(1);
+        public static int LevelN = 1;
         public static int clfofood = 0;
+        
         SoundPlayer startSoundPlayer = new SoundPlayer(@"C:\Users\Администратор\Desktop\Новая папка\Звукккк.wav");//стенамен согыскандагы звук
 
         public Game()
@@ -60,7 +66,9 @@ namespace GAME_GAME.Model
             snake.Save();
             wall.Save();
             food.Save();
+
         }
+
         public void Init()
         {
             food.NewRandomPosition();
@@ -75,6 +83,14 @@ namespace GAME_GAME.Model
         public void Draw()
         {
             Console.Clear();//// консолда барин оширед
+        
+            Console.SetCursorPosition(1, 5);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Level:" + Game.LevelN);
+
+            Console.SetCursorPosition(1, 6);
+            Console.WriteLine("Score:" + Game.clfofood);
+
             food.Draw();
             snake.Draw();
             wall.Draw();

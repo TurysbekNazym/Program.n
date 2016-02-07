@@ -30,21 +30,26 @@ namespace GAME_GAME.Model
         {
             FileStream fs;
             if (sign == '0')
-                fs = new FileStream("snake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                fs = new FileStream("snake", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             else if (sign == '#')
-                fs = new FileStream("wall.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                fs = new FileStream("wall", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             else
-                fs = new FileStream("Food.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                fs = new FileStream("Food", FileMode.OpenOrCreate, FileAccess.ReadWrite);
           /*  Type t = GetType();
-            FileStream qq = new FileStream(string.Format("{0}.xml"), FileMode.Create, FileAccess.Write);
+            
             XmlSerializer xs = new XmlSerializer(t);
-            xs.Serialize(qq, this);
-            qq.Close();*/
+            xs.Serialize(fs, this);
+            fs.Close();*/
+            
             Type t = GetType();
             BinaryFormatter formatter = new BinaryFormatter();
-            FileStream qq = new FileStream(string.Format("{0}.dat", t.Name), FileMode.Create, FileAccess.Write);
+            
             formatter.Serialize(fs, this);
-            qq.Close();
+            fs.Close();
+          
+
+            
+            
         }
         public void Resume()
 
@@ -58,8 +63,13 @@ namespace GAME_GAME.Model
                 fileName = "snake.xml";
 
             FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            XmlSerializer xs = new XmlSerializer(GetType());
+           /* XmlSerializer xs = new XmlSerializer(GetType());
+            fs.Close();*/
+            BinaryFormatter we = new BinaryFormatter();
+            we.Serialize(fs, this);
             fs.Close();
+
+
 
 
 

@@ -51,7 +51,8 @@ namespace GAME_GAME.Model
                 if (Game.clfofood % 6 == 0)
                 {
                     startSoundPlayer.Play();
-                    Game.wall = new Wall(Game.clfofood / 6 + 1);//  если он съел 6 штуков еды то переходит в следующй уровень 
+                    Game.wall = new Wall(Game.clfofood / 6 + 1);
+                    Game.LevelN++;//  если он съел 6 штуков еды то переходит в следующй уровень 
                     Game.snake = new Snake();// запускется новая змейка 
                     Game.food = new Food();// еда тоже 
                     Game.food.NewRandomPosition();// новая позиция еды 

@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 namespace GAME_GAME.Model
 {
@@ -33,11 +35,19 @@ namespace GAME_GAME.Model
                 fs = new FileStream("wall.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             else
                 fs = new FileStream("Food.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            XmlSerializer xs = new XmlSerializer(GetType());// get type тип дроуер
-            xs.Serialize(fs, this); //fs ишине мынаны 
-            fs.Close();
+          /*  Type t = GetType();
+            FileStream qq = new FileStream(string.Format("{0}.xml"), FileMode.Create, FileAccess.Write);
+            XmlSerializer xs = new XmlSerializer(t);
+            xs.Serialize(qq, this);
+            qq.Close();*/
+            Type t = GetType();
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream qq = new FileStream(string.Format("{0}.dat", t.Name), FileMode.Create, FileAccess.Write);
+            formatter.Serialize(fs, this);
+            qq.Close();
         }
-        public void Resume()// шынып кетесем кайта кирем 
+        public void Resume()
+
         {
             string fileName = "";
             if (sign == '#')

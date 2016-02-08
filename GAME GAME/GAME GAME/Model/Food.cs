@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 
 namespace GAME_GAME.Model
 {
@@ -50,22 +51,7 @@ namespace GAME_GAME.Model
                 body[0].x = x;
                 body[0].y = y;
             }
-            
-
-
-
-
-
-
-
-
-            if (body.Count == 0)
-                body.Add(new Point(x, y));
-            else
-            {
-                body[0].x = x;
-                body[0].y = y;
-            }
+           
 
         }
     }

@@ -47,6 +47,7 @@ namespace GAME_GAME.Model
             {
                 Game.food.NewRandomPosition();
                 body.Add(new Point(0, 0));
+              ///  startSoundPlayer.Play(); тамак жегендеге музыка кою кереккккккк 
                 Game.clfofood++;// счетчик считает сколько фудов съел снейк
                 if (Game.clfofood % 6 == 0)
                 {

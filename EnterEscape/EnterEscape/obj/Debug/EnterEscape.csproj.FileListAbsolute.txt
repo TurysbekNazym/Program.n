@@ -1,0 +1,17 @@
+C:\Git\Program.n\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe.config
+C:\Git\Program.n\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe
+C:\Git\Program.n\EnterEscape\EnterEscape\bin\Debug\EnterEscape.pdb
+C:\Git\Program.n\EnterEscape\EnterEscape\obj\Debug\EnterEscape.exe
+C:\Git\Program.n\EnterEscape\EnterEscape\obj\Debug\EnterEscape.pdb
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe.config
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\obj\Debug\EnterEscape.exe
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\obj\Debug\EnterEscape.pdb
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\bin\Debug\EnterEscape.pdb
+C:\Users\Администратор\Downloads\EnterEscape\EnterEscape\obj\Debug\EnterEscape.csprojResolveAssemblyReference.cache
+C:\Git\Clonning\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe.config
+C:\Git\Clonning\EnterEscape\EnterEscape\obj\Debug\EnterEscape.exe
+C:\Git\Clonning\EnterEscape\EnterEscape\obj\Debug\EnterEscape.pdb
+C:\Git\Clonning\EnterEscape\EnterEscape\obj\Debug\EnterEscape.csprojResolveAssemblyReference.cache
+C:\Git\Clonning\EnterEscape\EnterEscape\bin\Debug\EnterEscape.exe
+C:\Git\Clonning\EnterEscape\EnterEscape\bin\Debug\EnterEscape.pdb

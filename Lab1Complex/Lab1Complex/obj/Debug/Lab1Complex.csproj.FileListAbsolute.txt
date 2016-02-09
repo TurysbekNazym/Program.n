@@ -1,0 +1,6 @@
+C:\Git\Program.n\Lab1Complex\Lab1Complex\bin\Debug\Lab1Complex.exe.config
+C:\Git\Program.n\Lab1Complex\Lab1Complex\obj\Debug\Lab1Complex.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\Lab1Complex\Lab1Complex\bin\Debug\Lab1Complex.exe
+C:\Git\Program.n\Lab1Complex\Lab1Complex\bin\Debug\Lab1Complex.pdb
+C:\Git\Program.n\Lab1Complex\Lab1Complex\obj\Debug\Lab1Complex.exe
+C:\Git\Program.n\Lab1Complex\Lab1Complex\obj\Debug\Lab1Complex.pdb

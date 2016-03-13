@@ -1,0 +1,6 @@
+C:\Git\Program.n\THREAD Subject\THREAD Subject\bin\Debug\THREAD Subject.exe.config
+C:\Git\Program.n\THREAD Subject\THREAD Subject\bin\Debug\THREAD Subject.exe
+C:\Git\Program.n\THREAD Subject\THREAD Subject\bin\Debug\THREAD Subject.pdb
+C:\Git\Program.n\THREAD Subject\THREAD Subject\obj\Debug\THREAD Subject.csprojResolveAssemblyReference.cache
+C:\Git\Program.n\THREAD Subject\THREAD Subject\obj\Debug\THREAD Subject.exe
+C:\Git\Program.n\THREAD Subject\THREAD Subject\obj\Debug\THREAD Subject.pdb

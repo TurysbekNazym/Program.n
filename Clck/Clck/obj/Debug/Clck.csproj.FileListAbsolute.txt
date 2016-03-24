@@ -1,0 +1,9 @@
+C:\Git\Prog dop\Clck\Clck\bin\Debug\Clck.exe.config
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.csprojResolveAssemblyReference.cache
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.Form1.resources
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.Properties.Resources.resources
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.csproj.GenerateResource.Cache
+C:\Git\Prog dop\Clck\Clck\bin\Debug\Clck.exe
+C:\Git\Prog dop\Clck\Clck\bin\Debug\Clck.pdb
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.exe
+C:\Git\Prog dop\Clck\Clck\obj\Debug\Clck.pdb

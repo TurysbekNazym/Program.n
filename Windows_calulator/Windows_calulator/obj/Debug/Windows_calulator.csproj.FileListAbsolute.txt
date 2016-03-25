@@ -1,0 +1,9 @@
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\bin\Debug\Windows_calulator.exe.config
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\bin\Debug\Windows_calulator.exe
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\bin\Debug\Windows_calulator.pdb
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.csprojResolveAssemblyReference.cache
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.Form1.resources
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.Properties.Resources.resources
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.csproj.GenerateResource.Cache
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.exe
+C:\Git\Prog dop\Windows_calulator\Windows_calulator\obj\Debug\Windows_calulator.pdb

@@ -1,0 +1,9 @@
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\bin\Debug\paint_with_picturebox.exe.config
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\bin\Debug\paint_with_picturebox.exe
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\bin\Debug\paint_with_picturebox.pdb
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.csprojResolveAssemblyReference.cache
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.Form1.resources
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.Properties.Resources.resources
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.csproj.GenerateResource.Cache
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.exe
+C:\Git\Prog dop\paint_with_picturebox\paint_with_picturebox\obj\Debug\paint_with_picturebox.pdb

@@ -1,0 +1,9 @@
+C:\Git\Prog dop\Second_paint\Second_paint\bin\Debug\Second_paint.exe.config
+C:\Git\Prog dop\Second_paint\Second_paint\bin\Debug\Second_paint.exe
+C:\Git\Prog dop\Second_paint\Second_paint\bin\Debug\Second_paint.pdb
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.csprojResolveAssemblyReference.cache
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.Form1.resources
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.Properties.Resources.resources
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.csproj.GenerateResource.Cache
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.exe
+C:\Git\Prog dop\Second_paint\Second_paint\obj\Debug\Second_paint.pdb

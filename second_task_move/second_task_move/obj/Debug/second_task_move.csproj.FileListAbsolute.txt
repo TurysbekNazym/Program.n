@@ -1,0 +1,9 @@
+C:\Git\Prog dop\second_task_move\second_task_move\bin\Debug\second_task_move.exe.config
+C:\Git\Prog dop\second_task_move\second_task_move\bin\Debug\second_task_move.exe
+C:\Git\Prog dop\second_task_move\second_task_move\bin\Debug\second_task_move.pdb
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.csprojResolveAssemblyReference.cache
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.Form1.resources
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.Properties.Resources.resources
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.csproj.GenerateResource.Cache
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.exe
+C:\Git\Prog dop\second_task_move\second_task_move\obj\Debug\second_task_move.pdb
